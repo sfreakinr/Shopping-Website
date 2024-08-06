@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #28052f;
+    font-family: Oswald;
+    font-size: 2.4rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+ 
+}
+nav{
+    padding: 1rem;
+    background-color: rgb(62, 62, 62);
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 1rem 2rem;
+    transition: ease-in-out 0.5s;
+}
+
+nav ul li a:hover{
+    background-color: rgb(36, 36, 36);
+    
+}
+
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+
+.main{
+    padding: 2rem;
+    
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.prod_items{
+    border: 1px solid rgba(127, 127, 127, 0.37);
+    padding: 0.7rem;
+    background-color: white;
+
+}
+
+.prod_items img{
+    max-width: 100%;
+    height: auto;
+}
+
+.prod_items h2{
+    font-size: 1.3rem;
+    margin: 0.7rem 0;
+    font-family: Oswald;
+}
+
+.prod_items p{
+    color: #464646;
+    padding: 0.4rem 0;
+}
+
+.prod_items .price{
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: rgb(255, 14, 62);
+    padding: 0.2rem 0;
+}
+
+.prod_items button{
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 73, 121);
+}
+
+.prod_items button:hover{
+    background-color: rgb(255, 2, 78);
+    transition: 0.2s ease-in-out;
+
+}
